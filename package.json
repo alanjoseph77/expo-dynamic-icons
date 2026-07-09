@@ -1,7 +1,11 @@
 {
   "name": "expo-dynamic-icons",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Dynamic App Icon Library for Expo (Android)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanjoseph77/expo-dynamic-icons.git"
+  },
   "main": "src/index.ts",
   "files": [
     "src",

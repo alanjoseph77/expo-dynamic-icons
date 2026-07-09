@@ -2,7 +2,7 @@
 
 > 🎥 **See it in action:**
 > 
-> ![App Demo](./videogif.gif)
+> ![App Demo](https://raw.githubusercontent.com/alanjoseph77/expo-dynamic-icons/main/video.gif)
 
 A powerful, easy-to-use React Native Expo library that allows you to dynamically change your Android app icon at runtime!
 
