@@ -1,11 +1,5 @@
 # My Dynamic Icons
 
-![Banner Image](./bannermain.jpeg)
-
-> 🎥 **See it in action:**
->
-> ![App Demo](./videogif.gif)
-
 A powerful, easy-to-use React Native Expo library that allows you to dynamically change your Android app icon at runtime!
 
 ## Features
