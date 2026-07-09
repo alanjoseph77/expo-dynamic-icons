@@ -1,18 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
-let withAndroidManifest;
-let withDangerousMod;
-try {
-  const plugins = require('@expo/config-plugins');
-  withAndroidManifest = plugins.withAndroidManifest;
-  withDangerousMod = plugins.withDangerousMod;
-} catch (e) {
-  // Fallback for local testing without node_modules
-  const plugins = require('../test-app-3/node_modules/@expo/config-plugins');
-  withAndroidManifest = plugins.withAndroidManifest;
-  withDangerousMod = plugins.withDangerousMod;
-}
+const { withAndroidManifest, withDangerousMod } = require('@expo/config-plugins');
 
 // 1. Mod to copy physical image files to the Android build directory
 function withDynamicIconAssets(config, { icons = {} } = {}) {
