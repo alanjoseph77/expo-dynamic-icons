@@ -1,0 +1,32 @@
+{
+  "name": "expo-dynamic-icons",
+  "version": "1.0.0",
+  "description": "Dynamic App Icon Library for Expo (Android)",
+  "main": "src/index.ts",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "expo-module.config.json",
+    "app.plugin.js",
+    "*.jpeg",
+    "*.gif",
+    "*.png"
+  ],
+  "expo": {
+    "modules": [
+      "expo-module.config.json"
+    ]
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "expo": "^57.0.4",
+    "react": "^19.2.7",
+    "react-native": "^0.86.0",
+    "typescript": "^5.0.0"
+  }
+}
